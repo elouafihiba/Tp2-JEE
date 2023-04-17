@@ -46,3 +46,15 @@ Verifier dans la BD:
 <center><img src="assets/14.PNG"></center>
 
 
+10. Migrer de H2 Database vers MySQL
+pom.xml
+<center><img src="assets/18.PNG"></center>
+application.properties
+<center><img src="assets/19.PNG"></center>
+<center><img src="assets/20.PNG"></center>
+<center><img src="assets/21.PNG"></center>
+<center><img src="assets/22.PNG"></center>
+
+
+
+

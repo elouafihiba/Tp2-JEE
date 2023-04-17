@@ -59,12 +59,7 @@ public class Tp2Application implements CommandLineRunner {
 		System.out.println(patient);
 
 		System.out.println("=============================");
-		patientRepository.deleteById(1L);
-
-
-
-
-
+//		patientRepository.deleteById(1L);
 
 		Page <Patient> byMalade = patientRepository.findByMalade(true,PageRequest.of(2,4));
 		System.out.println("================================");
